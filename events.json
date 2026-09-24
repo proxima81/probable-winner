@@ -1,0 +1,26 @@
+[
+  {
+    "name": "freeCodeCamp",
+    "owner": "freeCodeCamp",
+    "description": "The open-source curriculum for learning to code.",
+    "language": "TypeScript",
+    "stars": 420000,
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+  },
+  {
+    "name": "The Algorithms",
+    "owner": "trekhleb",
+    "description": "Algorithms and data structures implemented in JavaScript.",
+    "language": "JavaScript",
+    "stars": 190000,
+    "url": "https://github.com/trekhleb/javascript-algorithms"
+  },
+  {
+    "name": "Public APIs",
+    "owner": "public-apis",
+    "description": "A collective list of free APIs for developers.",
+    "language": "Python",
+    "stars": 340000,
+    "url": "https://github.com/public-apis/public-apis"
+  }
+]

@@ -2,10 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>probable winner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Starred repositories</title>
   </head>
   <body>
-    <h1>Probable Winner</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main class="page-shell">
+      <header class="page-header">
+        <p class="eyebrow">Probable Winner</p>
+        <h1>Starred repositories</h1>
+        <p>A small log of the repositories I’ve starred.</p>
+      </header>
+
+      <section aria-labelledby="repository-heading">
+        <h2 id="repository-heading">Repository list</h2>
+        <ul id="repository-list" class="repository-list" aria-live="polite">
+          <li class="status-message">Loading repositories...</li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
